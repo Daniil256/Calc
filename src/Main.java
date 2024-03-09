@@ -9,11 +9,11 @@ public class Main {
         System.out.println("Ответ "+calc(expression));
     }
     public static String calc(String expression) throws Exception{
-        int num1 = 0;
-        int num2 = 0;
-        String oper = null;
+        int num1;
+        int num2;
+        String oper;
         String result;
-        String [] nums = new String[0];
+        String [] nums;
         int arabian;
         boolean isArabish = false;
 
